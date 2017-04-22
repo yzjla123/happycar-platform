@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  
+  <table-filter match-catalog="kuaisan" match-name="g_relation_user"/>
+  <!-- 
+  <table-filter match-catalog="kuaisan" match-name="g_config"/>
+  <table-filter match-catalog="kuaisan" match-name="g_user"/>
+  <table-filter match-catalog="kuaisan" match-name="g_manage"/>
+  <table-filter match-catalog="kuaisan" match-name="g_rank"/>
+  <table-filter match-catalog="kuaisan" match-name="g_zhudan"/>
+  <table-filter match-catalog="kuaisan" match-name="g_insert_log"/>
+  <table-filter match-catalog="kuaisan" match-name="g_login_log"/>
+  <table-filter match-catalog="kuaisan" match-name="g_panbiao"/>
+  <table-filter match-catalog="kuaisan" match-name="g_send_back"/>
+  <table-filter match-catalog="kuaisan" match-name="g_history2"/>
+  <table-filter match-catalog="kuaisan" match-name="g_history"/>
+  <table-filter match-catalog="kuaisan" match-name="g_history6"/>
+  <table-filter match-catalog="kuaisan" match-name="g_history_lhc"/>
+  <table-filter match-catalog="kuaisan" match-name="g_news"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds2"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds2_default"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds2_b"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds2_c"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds_default"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds_b"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds_c"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds6"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds6_default"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds6_b"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds6_c"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds_lhc"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds_lhc_default"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds_lhc_b"/>
+  <table-filter match-catalog="kuaisan" match-name="g_odds_lhc_c"/>
+  <table-filter match-catalog="kuaisan" match-name="g_kaipan"/>
+  <table-filter match-catalog="kuaisan" match-name="g_kaipan2"/>
+  <table-filter match-catalog="kuaisan" match-name="g_kaipan6"/>
+  <table-filter match-catalog="kuaisan" match-name="g_kaipan_lhc"/>
+  <table-filter match-catalog="kuaisan" match-name="g_payrecord"/>
+  <table-filter match-catalog="kuaisan" match-name="g_tixian"/>
+  <table-filter match-catalog="kuaisan" match-name="g_send_back_default"/>
+  <table-filter match-catalog="kuaisan" match-name="g_autolet"/> -->
+</hibernate-reverse-engineering>

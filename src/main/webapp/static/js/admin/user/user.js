@@ -1,0 +1,39 @@
+(function(){
+	$().ready(function(){
+		$('#manageType').click(function(){
+			$('#companyDiv').hide();
+			$('#manageRightSpan').show();
+			$('#companyRightSpan').hide();
+		});
+		$('#companyType').click(function(){
+			$('#companyDiv').show();
+			$('#manageRightSpan').hide();
+			$('#companyRightSpan').show();
+		});
+		
+	});
+	disableUser=function(id){
+		if(confirm('确认禁用该帐户？')){
+			$.getJSON('disableUser.do',{'id':id},function(data){
+				if(data.success){
+					alertSuccessMsg(data.msg);
+					location.reload();
+				}else{
+					alertErrorMsg(data.msg);
+				}
+			});
+		}
+	}
+	enableUser=function(id){
+		if(confirm('确认启用该帐户？')){
+			$.getJSON('enableUser.do',{'id':id},function(data){
+				if(data.success){
+					alertSuccessMsg(data.msg);
+					location.reload();
+				}else{
+					alertErrorMsg(data.msg);
+				}
+			});
+		}
+	}
+})();
